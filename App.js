@@ -5,9 +5,7 @@ import ScanScreen from './screens/ScanScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>yfd</Text>
-    </View>
+    <ScanScreen/>
   );
 }
 

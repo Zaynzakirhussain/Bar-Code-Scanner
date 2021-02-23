@@ -65,11 +65,21 @@ export default class ScanScreen extends React.Component {
 
 const styles = StyleSheet.create({
     scanButton: {
-        borderWidth: 1,
-        height: 30,
-        width: 50,
-        alignItems: 'center',
+        marginTop: 300,
+        marginLeft: 550,
+        width: 300,
+        height: 50,
         justifyContent: 'center',
-        backgroundColor: 'green'
+        alignItems: 'center',
+        borderRadius: 25,
+        backgroundColor: "#ff9800",
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 8,
+        },
+        shadowOpacity: 0.30,
+        shadowRadius: 10.32,
+        elevation: 16,
     }
 });
